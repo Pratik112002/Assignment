@@ -15,7 +15,6 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <!-- Header Row: Back + Support -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +36,7 @@
                 app:tint="@android:color/white" />
         </LinearLayout>
 
-        <!-- Profile Info -->
+        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -78,7 +77,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Credit Score Card -->
+    
         <LinearLayout
             android:id="@+id/creditScoreCard"
             android:layout_width="match_parent"
@@ -105,7 +104,7 @@
                 android:textSize="16sp"/>
         </LinearLayout>
 
-        <!-- Lifetime Cashback Card -->
+  
         <LinearLayout
             android:id="@+id/cashbackCard"
             android:layout_width="match_parent"
@@ -131,7 +130,7 @@
                 android:textStyle="bold"/>
         </LinearLayout>
 
-        <!-- Bank Balance Card -->
+ 
         <LinearLayout
             android:id="@+id/bankBalanceCard"
             android:layout_width="match_parent"
@@ -164,7 +163,7 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <!-- Rewards & Benefits -->
+
         <TextView
             android:id="@+id/rewardsTitle"
             android:layout_width="wrap_content"
@@ -175,7 +174,7 @@
             android:textStyle="bold"
             android:layout_marginTop="24dp"/>
 
-        <!-- Coins -->
+      
 
         <TextView
             android:layout_width="match_parent"
